@@ -33,6 +33,7 @@
 		<property name="dataSource" ref="ds" />
 		<property name="mapperLocations">
 			<list>
+				<value>/WEB-INF/mapper/*-mapper.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -67,7 +68,6 @@
 		<property name="prefix" value="/WEB-INF/view/"/>
 		<property name="suffix" value=".jsp"/>
 	</bean>
-
-
+	
 	<!-- <bean id="gson" factory-bean="gsonBuilder" factory-method="create"/> -->
 </beans>
